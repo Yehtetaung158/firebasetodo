@@ -55,15 +55,14 @@ const SignUp = () => {
 
   return (
     <div className="flex justify-center w-full bg-gray-700">
-      <section className="h-screen w-full fixed text-gray-400 bg-gray-900 body-font">
-        <div className="container px-5 py-24 mx-auto">
+      <section className="h-screen w-full fixed text-gray-400 bg-gray-900 body-font flex items-center justify-center">
+        <div className="container px-5 py-4 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Sign Up
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              laudantium totam soluta maxime corporis, iusto provident.
+              Lorem ipsum dolor sit amet consectetur 
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
