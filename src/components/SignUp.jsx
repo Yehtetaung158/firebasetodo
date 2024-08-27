@@ -128,7 +128,7 @@ const SignUp = () => {
                     type="submit"
                     className="w-full flex justify-center mx-auto text-white bg-indigo-500 disabled:bg-indigo-200 disabled:text-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                   >
-                    {loading ? <>Loading...</> : <>Sign Up</>}
+                    {loading ? <div className="load"></div> : <>Sign Up</>}
                   </button>
                 </div>
               </div>
@@ -137,9 +137,9 @@ const SignUp = () => {
             {/* Error message */}
             <div className="p-2 w-full">
               <div className="p-2 flex flex-col justify-center items-center gap-4 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                <a href="/login" className="text-indigo-400">
+                <button onClick={()=>nav("/login")} className="text-indigo-400">
                   I already have an account. Log In
-                </a>
+                </button>
 
                 <span className="inline-flex">
                   <a className="text-gray-500">

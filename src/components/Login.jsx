@@ -120,9 +120,9 @@ const Login = () => {
 
             <div className="p-2 w-full">
               <div className="p-2 flex flex-col justify-center items-center gap-4 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                <a href="/" className="text-indigo-400">
+                <button onClick={()=>navigate("/")} className="text-indigo-400">
                   I don't have an account. Sign Up
-                </a>
+                </button>
 
                 <span className="inline-flex">
                   <a className="text-gray-500">
